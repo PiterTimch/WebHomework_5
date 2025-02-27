@@ -4,7 +4,7 @@ html {
 }
 
 main {
-  padding-top: 3rem;
+  padding: 3rem;
 }
 main h2 {
   font-weight: bold;
@@ -26,6 +26,13 @@ main .additional-text {
 main .main-news img {
   padding: 0;
   margin-bottom: 1rem;
+}
+
+footer {
+  background-color: #eaeaea;
+}
+footer .footer-container {
+  padding: 1rem;
 }
 
 h1 {
