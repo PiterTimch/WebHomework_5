@@ -3,6 +3,35 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+main {
+  padding-top: 3rem;
+}
+main h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+main h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+main h5 {
+  font-size: 1rem;
+}
+main .additional-text {
+  font-size: 0.75rem;
+  color: rgba(161, 161, 161, 0.8862745098);
+}
+main .main-news img {
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
 .background {
   position: relative;
   background: url("/images/header.jpg") center/cover no-repeat;
@@ -50,10 +79,6 @@ html {
   padding: 0.2rem 0.5rem;
 }
 
-h1 {
-  font-size: 2rem;
-}
-
 .additional {
   position: relative;
   display: flex;
@@ -95,8 +120,14 @@ h1 {
   }
 }
 @media only screen and (max-width: 768px) {
-  [class*=col-] {
+  header [class*=col-] {
     text-align: center;
+  }
+  main [class*=col-] {
+    width: 100%;
+  }
+  main .news-list {
+    padding: 1rem;
   }
 }
 @media only screen and (max-width: 540px) {
